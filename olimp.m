@@ -1,3 +1,6 @@
+% take into account that NOW all dates 
+% are distinct so other type of graphs will be more useful
+
 clear all;
 close all;
 
