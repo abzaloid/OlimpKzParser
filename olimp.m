@@ -1,6 +1,9 @@
 % take into account that NOW all dates 
 % are distinct so other type of graphs will be more useful
 
+% also may be it is better to have ddmmyyyy instead of mmyyyy
+% or both graphs
+
 clear all;
 close all;
 
