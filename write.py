@@ -25,9 +25,25 @@ date_sum = []
 for dat in date:
 	p = dat[:10]
 	date_sum.append(p[3:5]+'/'+p[0:2]+'/'+p[6:10])
-n=len(date)
+
+games = {}
+for i in range(len(date_sum)):
+	if date_sum[i] not in games:
+		games[date_sum[i]] = [0, 0]
+
+	games[date_sum[i]][0] += int(win[i])
+	games[date_sum[i]][1] += int(lost[i])
+
+data = []
+
+for key, val in games.iteritems():
+	data.append((key, val[0], val[1]))
+
+data = sorted(data, key = lambda x : int(x[0][0:2]) + 31 * int(x[0][3:5]) + 31 * 12 * int(x[0][6:]))
+
+n=len(data)
 f = open("data.csv", "w")
 for i in range(n):
-	f.write("{},{},{}\n".format(str(date_sum[n-i-1]), win[n-i-1], lost[n-i-1]))
+	f.write("{},{},{}\n".format(str(data[i][0]), data[i][1], data[i][2]))
 
 f.close()
