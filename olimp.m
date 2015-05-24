@@ -56,8 +56,8 @@ for i = 1 : len;
 end;
 figure;
 hold on;
-plot(date, getm, 'g.');
-plot(date, putm, 'r.');
+plot(date, getm, 'g-', 'LineWidth', 3);
+plot(date, putm, 'r-', 'LineWidth', 3);
 datetick('x','dd/mm/yy', 'keeplimits', 'keepticks');
 xlabel('Date');
 ylabel('Money');
@@ -65,7 +65,45 @@ hold off;
 
 %% profit long time
 figure;
-plot(date, getm-putm, 'r.');
+plot(date, getm-putm, 'r-');
 datetick('x','dd/mm/yy', 'keeplimits', 'keepticks');
 xlabel('Date');
 ylabel('Money');
+%% profit best fit line
+figure;
+plot(date, getm-putm, 'r-', 'LineWidth', 3);
+hold on;
+coeffs = polyfit(date, getm-putm, 1);
+fittedX = linspace(min(date), max(date), 200);
+fittedY = polyval(coeffs, fittedX);
+plot(fittedX, fittedY, 'b-', 'LineWidth',3);
+datetick('x','dd/mm/yy', 'keeplimits', 'keepticks');
+xlabel('Date');
+ylabel('Money');
+title(sprintf('Coefficient = %.3f', (fittedY(2)-fittedY(1))/(fittedX(2)-fittedX(1))));
+hold off;
+
+%% profit best fit kdeg polynomial
+figure;
+k = 6;
+plot(date, getm-putm, 'r-', 'LineWidth', 3);
+hold on;
+coeffs = polyfit(date, getm-putm, k);
+fittedX = linspace(min(date), max(date), 200);
+fittedY = polyval(coeffs, fittedX);
+plot(fittedX, fittedY, 'b-', 'LineWidth',3);
+datetick('x','dd/mm/yy', 'keeplimits', 'keepticks');
+xlabel('Date');
+ylabel('Money');
+title('Best fit 6th degree function');
+hold off;
+%% profit future!!!
+figure;
+fittedX = linspace(min(date), max(date)+1000, 200);
+fittedY = polyval(coeffs, fittedX);
+plot(fittedX, fittedY, 'b-', 'LineWidth',3);
+datetick('x','dd/mm/yy', 'keeplimits', 'keepticks');
+datetick('x','dd/mm/yy', 'keeplimits', 'keepticks');
+xlabel('Date');
+ylabel('Money');
+title('Future!');
