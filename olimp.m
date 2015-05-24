@@ -22,30 +22,12 @@ lost = data(:,3);
 win = round(win);
 lost = round(lost);
 date = round(date);
-%% all games
-figure;
-hist(date, 300);
-datetick('x','mmmyy');
-xlabel('Date');
-ylabel('#of occurences');
-%% profit
-profit = round(zeros(len, 1));
-prev = 0;
-for i = 1:len;
-    if (i > 1)
-        prev = profit(i - 1);
-    end
-    profit(i) = prev + win(i) - lost(i);
-end;
-figure;
-plot(date, profit, 'r*');
-datetick('x','mmmyy');
-xlabel('Date');
-ylabel('Profit');
+
+
 %% hist of win and lost
 figure;
-x = win(win <= 1000);
-y = lost(lost<= 1000);
+x = win(win <= 4000);
+y = lost(lost<= 4000);
 
 [dummy, t] = hist([x;y], 6);
 
@@ -74,16 +56,16 @@ for i = 1 : len;
 end;
 figure;
 hold on;
-plot(date, getm, 'g');
-plot(date, putm, 'r');
-datetick('x','mmmyy');
+plot(date, getm, 'g.');
+plot(date, putm, 'r.');
+datetick('x','dd/mm/yy', 'keeplimits', 'keepticks');
 xlabel('Date');
 ylabel('Money');
 hold off;
 
 %% profit long time
 figure;
-plot(date, getm-putm, 'g');
-datetick('x','mmmyy');
+plot(date, getm-putm, 'r.');
+datetick('x','dd/mm/yy', 'keeplimits', 'keepticks');
 xlabel('Date');
 ylabel('Money');

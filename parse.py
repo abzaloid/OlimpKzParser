@@ -6,7 +6,7 @@ import os
 
 games = []
 
-for c in range(501):
+for c in range(4,3488):
 	cur_page = str(c+1)
 	doc = ""
 	f = open(os.path.join("parsed_data",cur_page+".html"), "r")

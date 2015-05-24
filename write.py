@@ -39,7 +39,7 @@ data = []
 for key, val in games.iteritems():
 	data.append((key, val[0], val[1]))
 
-data = sorted(data, key = lambda x : int(x[0][0:2]) + 31 * int(x[0][3:5]) + 31 * 12 * int(x[0][6:]))
+data = sorted(data, key = lambda x : 31 * int(x[0][0:2]) + int(x[0][3:5]) + 31 * 12 * int(x[0][6:]))
 
 n=len(data)
 f = open("data.csv", "w")
