@@ -1,0 +1,570 @@
+BODY
+{
+    BORDER-RIGHT: medium none;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: medium none;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    BORDER-LEFT: medium none;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY:  Tahoma,Verdana, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #fff
+}
+TD.ns A
+{
+TEXT-DECORATION: none
+}
+TD.ns A:hover
+{
+TEXT-DECORATION: underline
+}
+.rd
+{
+	float: left;
+	margin: 3px;
+}
+.rd1
+{
+	float: left;
+	margin: 3px;
+	width: 90%;
+}
+.hi
+{
+    BACKGROUND-COLOR: #f1f1f1
+}
+.bg
+{
+   BACKGROUND-COLOR: #ffffff
+}
+.kh
+{
+    FONT-WEIGHT: bold;
+    BACKGROUND-COLOR: silver
+}
+TABLE.head_tbl
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    WIDTH: 60%;
+    COLOR: #fff;
+    FONT-FAMILY: sans-serif,  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+TABLE.head_tbl A
+{
+    COLOR: #fff;
+    TEXT-DECORATION: none
+}
+TABLE.head_tbl A:hover
+{
+    TEXT-DECORATION: underline
+}
+TD.col_td
+{
+    PADDING-RIGHT: 15px;
+    PADDING-LEFT: 15px;
+    PADDING-BOTTOM: 15px;
+    WIDTH: 195px;
+    PADDING-TOP: 10px
+}
+TD.menu_td
+{
+    PADDING-RIGHT: 15px;
+    PADDING-LEFT: 15px;
+    PADDING-BOTTOM: 5px;
+    PADDING-TOP: 5px
+}
+TD.central_td
+{
+    PADDING-RIGHT: 2px;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 15px;
+    PADDING-TOP: 10px
+}
+FONT
+{
+    FONT-SIZE: 13px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+TD
+{
+    FONT-SIZE: 13px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+.rs
+{
+BORDER-RIGHT: #000000 1px solid
+}
+HR.hr1
+{
+    BORDER-RIGHT: #d1d7dc 0px solid;
+    BORDER-TOP: #d1d7dc 1px solid;
+    BORDER-LEFT: #d1d7dc 0px solid;
+    BORDER-BOTTOM: #d1d7dc 0px solid;
+    HEIGHT: 0px
+}
+HR.hr2
+{
+    BORDER-RIGHT: #800000 0px solid;
+    BORDER-TOP: #800000 1px solid;
+    BORDER-LEFT: #800000 0px solid;
+    BORDER-BOTTOM: #800000 0px solid;
+    HEIGHT: 0px
+}
+IMG
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px
+}
+.brd
+{
+    BORDER-RIGHT: #800000 1px solid;
+    BORDER-TOP: #800000 1px solid;
+    BORDER-LEFT: #800000 1px solid;
+    BORDER-BOTTOM: #800000 1px solid
+}
+.mmf
+{
+    FONT-SIZE: 18px;
+    LINE-HEIGHT: 110%;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;
+    FONT-WEIGHT: bold;
+}
+H1
+{
+    FONT-SIZE: 18px;
+    COLOR: #800000;
+    LINE-HEIGHT: 110%;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+H1.admin_head
+{
+    FONT-SIZE: 18px;
+    COLOR: #ffffff;
+    LINE-HEIGHT: 110%;
+    FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+TABLE.err
+{
+    BORDER-RIGHT: red 1px solid;
+    BORDER-TOP: red 1px solid;
+    BORDER-LEFT: red 1px solid;
+    BORDER-BOTTOM: red 1px solid;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 1px;
+    PADDING-TOP: 1px;
+    PADDING-BOTTOM: 1px;
+    WIDTH: 100%;
+    MARGIN-TOP: 5px;
+    MARGIN-BOTTOM: 5px;
+    BACKGROUND-COLOR: #ffffff
+}
+TABLE.err TD
+{
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+
+TABLE.smallwnd3
+{
+    BORDER-RIGHT: silver 1px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: silver 1px solid;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 5px;
+    BORDER-LEFT: silver 1px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: silver 1px solid;
+    BACKGROUND-COLOR: #f1f1f1
+}
+TABLE.smallwnd3 A
+{
+       	COLOR: black;
+	TEXT-DECORATION: none
+}
+TABLE.smallwnd3 A:hover
+{
+    COLOR: black;
+    TEXT-DECORATION: underline
+}
+TABLE.smallwnd2
+{
+    BORDER-RIGHT: silver 1px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: silver 1px solid;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 5px;
+    BORDER-LEFT: silver 1px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: silver 1px solid;
+    BACKGROUND-COLOR: #f1f1f1
+}
+TABLE.smallwnd
+{
+    BORDER-RIGHT: silver 1px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: silver 1px solid;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 5px;
+    BORDER-LEFT: silver 1px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: silver 1px solid;
+    BACKGROUND-COLOR: #f1f1f1
+}
+TABLE.smallwnd TD
+{
+    PADDING-RIGHT: 1px;
+    PADDING-LEFT: 1px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 1px;
+    PADDING-TOP: 1px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+TABLE.smallwnd A
+{
+    FONT-SIZE: 8pt;
+    COLOR: #800000
+}
+.smwndcap
+{
+    FONT-WEIGHT: bold;
+    COLOR: white;
+    HEIGHT: 17px
+
+}
+.clcap
+{
+    FONT-WEIGHT: bold;
+    WIDTH: 14%
+}
+.loginbox
+{
+    BORDER-RIGHT: black 1px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: black 1px solid;
+    PADDING-LEFT: 1px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 0px;
+    BORDER-LEFT: black 1px solid;
+    COLOR: black;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: white
+}
+.loginbox_big
+{
+    BORDER-RIGHT: black 1px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: black 1px solid;
+    PADDING-LEFT: 1px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 8pt;
+    PADDING-BOTTOM: 1px;
+    MARGIN: 0px;
+    BORDER-LEFT: black 1px solid;
+    COLOR: black;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: black 1px solid;
+    FONT-FAMILY:  Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    BACKGROUND-COLOR: white
+}
+A
+{
+    COLOR: #800000
+}
+.msbtn1
+{
+    BORDER-RIGHT: gray 2px solid;
+    BORDER-TOP: gray 2px solid;
+    MARGIN-TOP: 2px;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 8pt;
+    BORDER-LEFT: gray 2px solid;
+    COLOR: black;
+    BORDER-BOTTOM: gray 2px solid;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: silver;
+    WIDTH: 100px
+}
+.msbtn1:disabled
+{	color: #909090;
+}
+TD.copyright
+{
+    FONT-SIZE: 11px;
+    COLOR: #444444;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    LETTER-SPACING: 0px
+}
+.tab
+{
+    MARGIN-LEFT: 20px
+}
+.bigtab
+{
+    MARGIN-LEFT: 42px
+}
+.tab_r
+{
+    MARGIN-RIGHT: 20px
+}
+TABLE.koeftable
+{
+    BORDER-RIGHT: silver 1px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: silver 1px solid;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    BORDER-LEFT: silver 1px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: silver 1px solid;
+    BACKGROUND-COLOR: #fff
+}
+TABLE.koeftable TD
+{
+	FONT-SIZE: 11px
+}
+TABLE.koeftable2
+{
+    BORDER-RIGHT: silver 1px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: silver 1px solid;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    BORDER-LEFT: silver 1px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: silver 1px solid;
+    BACKGROUND-COLOR: #fff
+}
+TABLE.bettable
+{
+    BORDER-RIGHT: silver 1px solid;
+    PADDING-RIGHT: 1px;
+    BORDER-TOP: silver 1px solid;
+    PADDING-LEFT: 1px;
+    PADDING-BOTTOM: 1px;
+    BORDER-LEFT: silver 1px solid;
+    WIDTH: 100%;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: silver 1px solid;
+    MARGIN-TOP: 3px;
+    MARGIN-BOTTOM: 3px
+}
+TABLE.bettable TD
+{
+	FONT-SIZE: 11px
+}
+FONT.imgs
+{
+    COLOR: gray;
+    FONT-STYLE: italic
+}
+UL.ulmnu
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 40px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 2px 0px 7px;
+    PADDING-TOP: 0px
+}
+UL.ulmnu A
+{
+    FONT-SIZE: 8pt;
+    COLOR: #800000;
+    FONT-FAMILY: Tahoma;
+    TEXT-DECORATION: none
+}
+UL.ulmnu A:hover
+{
+    COLOR: black;
+    TEXT-DECORATION: underline
+}
+.txtsmall
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+.txtmed
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+.txtmedred
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    COLOR: red
+}
+.txtmedol
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    COLOR: #800000
+}
+.txtnorm
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+.txtbig
+{
+    FONT-SIZE: 14px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+.w
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    COLOR: blue
+}
+.r
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    COLOR: #800000
+}
+.l
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    COLOR: red
+}
+.u
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif;
+    COLOR: black
+}
+.voteres
+{
+    MARGIN-TOP: 5px;
+    FONT-SIZE: 10pt;
+    MARGIN-BOTTOM: 5px
+}
+.votepc
+{
+    BORDER-RIGHT: black 1px solid;
+    BORDER-TOP: black 1px solid;
+    FONT-SIZE: 1px;
+    MARGIN-LEFT: 15px;
+    BORDER-LEFT: black 1px solid;
+    BORDER-BOTTOM: black 1px solid;
+    COLOR: #ffffff;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 12px;
+    BACKGROUND-COLOR: #800000
+}
+.m
+{
+    COLOR: #800000
+}
+.g
+{
+    COLOR: #FEE200
+}
+.flat_inp
+{
+    BORDER-RIGHT: solid 0px;
+    BORDER-TOP: solid 0px;
+    BORDER-LEFT: solid 0px;
+    BORDER-BOTTOM: solid 0px;
+    BACKGROUND-COLOR: #f1f1f1;
+    FONT-WEIGHT: bold
+}
+TABLE.report
+{
+    BORDER-RIGHT: solid 0px;
+    BORDER-TOP: solid 0px;
+    BORDER-LEFT: solid 0px;
+    BORDER-BOTTOM: solid 0px
+}
+TABLE.report TD
+{
+    BORDER-RIGHT: solid 0px;
+    BORDER-TOP: solid 0px;
+    BORDER-LEFT: solid 0px;
+    BORDER-BOTTOM: solid 1px
+}
+.gr
+{
+    BACKGROUND-COLOR: #C0C0C0
+}
+.m_c
+{
+    BACKGROUND-COLOR: #800000
+}
+TABLE.bb
+{
+    BORDER-RIGHT: #800000 1px solid;
+    BORDER-TOP: #800000 1px solid;
+    BORDER-LEFT: #800000 1px solid;
+    BORDER-BOTTOM: #800000 1px solid;
+    PADDING-LEFT: 1px;
+    PADDING-RIGHT: 1px;
+    PADDING-TOP: 1px;
+    PADDING-BOTTOM: 1px;
+    WIDTH: 100%;
+    MARGIN-TOP: 5px;
+    MARGIN-BOTTOM: 5px;
+}
+TABLE.bb TD
+{
+    PADDING-RIGHT: 10px;
+    PADDING-LEFT: 10px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px;
+    FONT-FAMILY:  Tahoma,Verdana, Arial, Helvetica, sans-serif
+}
+a.curs:link
+  {
+   color:#000000;
+   text-decoration:none;
+   font-weight:normal;
+   cursor:text;
+  }
+a.curs:hover
+  {
+   color:#000000;
+   text-decoration:none;
+   font-weight:normal;
+   cursor:text;
+  }
+a.curs:visited
+  {
+   color:#000000;
+   text-decoration:none;
+   font-weight:normal;
+   cursor:text;
+  }
+a.curs:active
+  {
+   color:#000000;
+   text-decoration:none;
+   font-weight:normal;
+   cursor:text;
+  }
