@@ -36,7 +36,7 @@ class GetHandler(BaseHTTPRequestHandler):
 # HandlerClass = SimpleHTTPRequestHandler
 ServerClass  = BaseHTTPServer.HTTPServer
 Protocol     = "HTTP/1.0"
-
+port = 8765
 server_address = ('127.0.0.1', port)
 
 # HandlerClass.protocol_version = Protocol
