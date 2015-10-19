@@ -37,10 +37,6 @@ class GetHandler(BaseHTTPRequestHandler):
 ServerClass  = BaseHTTPServer.HTTPServer
 Protocol     = "HTTP/1.0"
 
-if sys.argv[1:]:
-    port = int(sys.argv[1])
-else:
-    port = 8765
 server_address = ('127.0.0.1', port)
 
 # HandlerClass.protocol_version = Protocol
