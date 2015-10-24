@@ -29,15 +29,17 @@ class GetHandler(BaseHTTPRequestHandler):
         	j = json.dumps({"date": date, 
         				"win": win,
         				"lost": lost,})
-        	response = json.loads(j)
+        	print "j = " + j
+		response = json.loads(j)
         self.wfile.write(response)
+	print "response=", response
         return
 
 # HandlerClass = SimpleHTTPRequestHandler
 ServerClass  = BaseHTTPServer.HTTPServer
 Protocol     = "HTTP/1.0"
-port = 8765
-server_address = ('127.0.0.1', port)
+port = 9005
+server_address = ('0.0.0.0', port)
 
 # HandlerClass.protocol_version = Protocol
 httpd = ServerClass(server_address, GetHandler)
